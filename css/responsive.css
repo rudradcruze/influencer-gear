@@ -1,0 +1,46 @@
+/* Extra Small Devices */
+@media only screen and (max-width: 575px) {
+
+    html {
+        font-size: 51.5%;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    #header_menu {
+        padding: 0;
+    }
+
+    nav {
+        visibility: hidden;
+        display: none;
+    }
+
+    .mobile_menu {
+        display: block;
+        font-size: 3rem;
+        color: var(--ex_dark);
+    }
+
+    #header .header_wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .header_info {
+        width: 100%;
+        text-align: center;
+    }
+
+    #brands .brands_wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem 7rem;
+    }
+
+    .collection_wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

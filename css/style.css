@@ -90,6 +90,10 @@ a {
     padding: 8rem 0 5rem 0;
 }
 
+.mobile_menu {
+    display: none;
+}
+
 .header_menu_wrapper {
     display: flex;
     align-items: center;
@@ -167,6 +171,10 @@ nav ul li:hover input {
 	-o-border-radius: 50%;
 	position: relative;
 	padding: 20px;
+}
+
+.header_image_wrapper .header_image img {
+    width: 100%;
 }
 
 .header_image_wrapper::before {
@@ -264,13 +272,13 @@ nav ul li:hover input {
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
-	grid-gap: 30px;
+	grid-gap: 3rem;
 }
 
 .collection_items {
     padding: 15px 15px 20px 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .collection_items .collection_items_image img {
@@ -278,43 +286,99 @@ border-radius: 5px;
 }
 
 .collection_items_info {
-    padding-top: 15px;
+    padding-top: 1.5rem;
 }
 
 .collection_items_info h3    {
     font-weight: 500;
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 2.8rem;
+    line-height: 4rem;
     color: var(--ex_dark);
 }
 
 .collection_items_info .price {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 2.4rem;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.87);
 }
 
 .collection_items_info .ratings i {
     color: #FB8200;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .collection_items_info .ratings span {
-    padding-left: 10px;
+    padding-left: 1rem;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     letter-spacing: 0.1px;
     color: #5E6366;
 }
 
 .collection_items_info p {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 143%;
     letter-spacing: 0.018em;
     color: #787885;
     width: 60%;
-    padding-top: 10px;
+    padding-top: 1rem;
+}
+
+/* ================================
+           Footer Section
+   ===============================*/
+
+footer#footer {
+    padding: 5rem;
+    text-align: center;
+    background: #0A0826;
+}
+
+footer#footer h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    color: var(--white);
+}
+
+footer#footer p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 24px;
+    color: #D9DBE1;
+    padding: 5px 0;
+}
+
+#footer ul li {
+    display: inline-block;
+    margin: .5rem;
+}
+
+#footer ul li a {
+    background: rgba(255, 255, 255, 0.2);
+    color: var(--white);
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 4.5rem;
+    text-align: center;
+    display: block;
+    font-size: 1.9rem;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+#footer ul li a:hover {
+    background: var(--white);
+    color: #0A0826;
 }
