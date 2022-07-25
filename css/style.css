@@ -199,3 +199,40 @@ nav ul li:hover input {
     color: var(--secondary_color);
     padding: 16px 0;
 }
+
+
+/* ================================
+                Brands
+   ===============================*/
+
+#brands {
+    margin: 69px 0 100px 0;
+}
+
+#brands .brands_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px 0;
+    border-width: 3px 0;
+    border-style: solid;
+    border-image: linear-gradient(45deg, #C0CCDA1A, #C0CCDA99, #C0CCDA1A) 1;
+}
+
+#brands .brands_wrapper img {
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+}
+
+#brands .brands_wrapper img:hover {
+    transform: scale(1.2);
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
