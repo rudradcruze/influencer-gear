@@ -1,4 +1,4 @@
-/* Extra Small Devices */
+/* Extra Small & Small Devices */
 @media only screen and (max-width: 767px) {
 
     html {
@@ -51,5 +51,52 @@
     .container {
         padding: 2.5rem;
     }
-    
+
+}
+
+/* Medium Device */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    html {
+        font-size: 51.5%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    #header_menu {
+        padding: 6rem 0 5rem 0;
+    }
+
+    .header_image_wrapper {
+        transform: scale(.85);
+        -webkit-transform: scale(.85);
+        -moz-transform: scale(.85);
+        -ms-transform: scale(.85);
+        -o-transform: scale(.85);
+    }
+
+    #brands .brands_wrapper {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 4rem 7rem;
+    }
+
+    .collection_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+        width: 90%;
+    }
 }
